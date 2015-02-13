@@ -1,0 +1,118 @@
+﻿<Page x:ConnectionId='1'
+	x:Name="pageRoot"
+    x:Class="MutiaraIman.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MutiaraIman"
+	xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+	                        >
+	
+	<Grid Background="#FFF6F1F5" Margin="0,-30,0,0">
+		<Grid Background="#FF521867" VerticalAlignment="Top" Height="125"/>
+		<Hub x:ConnectionId='2' x:Name="Hub" Header="Mutiara Iman" Foreground="White" Margin="0,30,0,0"                                                  >
+			<Hub.HeaderTemplate>
+				<DataTemplate>
+					<StackPanel Orientation="Horizontal" Margin="0,30,0,0">
+						<Image Source="Assets/mutiaraiman-inv.png" Height="60" Width="60" Margin="0,0,15,0"/>
+						<TextBlock Text="{Binding}" FontSize="70" VerticalAlignment="Center" FontWeight="ExtraLight" Margin="0,-3,0,3"/>
+					</StackPanel>
+				</DataTemplate>
+			</Hub.HeaderTemplate>
+			<HubSection x:Name="PrayersSection" Header="DOA" Foreground="#FF3F2549">
+				<DataTemplate>
+					<ListView x:ConnectionId='7' ItemsSource="{Binding PrayersPage.EntityList, ElementName=pageRoot}"
+							  SelectionMode="None"
+							  IsItemClickEnabled="True"
+							                                
+							  ContinuumNavigationTransitionInfo.ExitElementContainer="True">
+						<ListView.ItemTemplate>
+							<DataTemplate>
+								<StackPanel Orientation="Vertical" Margin="0,0,0,19">
+									<TextBlock Text="{Binding Title}" Style="{ThemeResource ListViewItemTextBlockStyle}" Foreground="Black"/>
+									<TextBlock Text="{Binding Content}" Style="{ThemeResource ListViewItemContentTextBlockStyle}" Foreground="#FF555555" TextTrimming="WordEllipsis" TextWrapping="NoWrap" Height="30"/>
+								</StackPanel>
+							</DataTemplate>
+						</ListView.ItemTemplate>
+					</ListView>
+				</DataTemplate>
+			</HubSection>
+			<HubSection x:Name="ReflectionsSection" Header="RENUNGAN" Foreground="#FF3F2549">
+				<DataTemplate>
+					<ListView x:ConnectionId='6' ItemsSource="{Binding ReflectionsPage.EntityList, ElementName=pageRoot}"
+							  SelectionMode="None"
+							  IsItemClickEnabled="True"
+							                                
+							  ContinuumNavigationTransitionInfo.ExitElementContainer="True">
+						<ListView.ItemTemplate>
+							<DataTemplate>
+								<StackPanel Orientation="Vertical" Margin="0,0,0,19">
+									<TextBlock Text="{Binding Title}" Style="{ThemeResource ListViewItemTextBlockStyle}" Foreground="Black"/>
+									<TextBlock Text="{Binding Content}" Style="{ThemeResource ListViewItemContentTextBlockStyle}" Foreground="#FF555555" TextTrimming="WordEllipsis" TextWrapping="NoWrap" Height="30"/>
+								</StackPanel>
+							</DataTemplate>
+						</ListView.ItemTemplate>
+					</ListView>
+				</DataTemplate>
+			</HubSection>
+			<HubSection x:Name="WorshipSection" Header="LAGU ROHANI" Foreground="#FF3F2549">
+				<DataTemplate>
+					<ListView x:ConnectionId='5' ItemsSource="{Binding WorshipPage.EntityList, ElementName=pageRoot}"
+							  SelectionMode="None"
+							  IsItemClickEnabled="True"
+							                                
+							  ContinuumNavigationTransitionInfo.ExitElementContainer="True">
+						<ListView.ItemTemplate>
+							<DataTemplate>
+								<StackPanel Orientation="Vertical" Margin="0,0,0,19">
+									<TextBlock Text="{Binding Title}" Style="{ThemeResource ListViewItemTextBlockStyle}" Foreground="Black"/>
+									<TextBlock Text="{Binding Content}" Style="{ThemeResource ListViewItemContentTextBlockStyle}" Foreground="#FF555555" TextTrimming="WordEllipsis" TextWrapping="NoWrap" Height="30"/>
+								</StackPanel>
+							</DataTemplate>
+						</ListView.ItemTemplate>
+					</ListView>
+				</DataTemplate>
+			</HubSection>
+			<HubSection x:Name="StoriesSection" Header="KISAH SANTO DAN SANTA" Foreground="#FF3F2549">
+				<DataTemplate>
+					<ListView x:ConnectionId='4' ItemsSource="{Binding StoriesPage.EntityList, ElementName=pageRoot}"
+							  SelectionMode="None"
+							  IsItemClickEnabled="True"
+							                                
+							  ContinuumNavigationTransitionInfo.ExitElementContainer="True">
+						<ListView.ItemTemplate>
+							<DataTemplate>
+								<StackPanel Orientation="Vertical" Margin="0,0,0,19">
+									<TextBlock Text="{Binding Title}" Style="{ThemeResource ListViewItemTextBlockStyle}" Foreground="Black"/>
+									<TextBlock Text="{Binding Content}" Style="{ThemeResource ListViewItemContentTextBlockStyle}" Foreground="#FF555555" TextTrimming="WordEllipsis" TextWrapping="NoWrap" Height="30"/>
+								</StackPanel>
+							</DataTemplate>
+						</ListView.ItemTemplate>
+					</ListView>
+				</DataTemplate>
+			</HubSection>
+			<HubSection x:Name="QuoteSection" Header="CATHOLIC QUOTE" Foreground="#FF3F2549">
+				<DataTemplate>
+					<ListView x:ConnectionId='3' ItemsSource="{Binding QuotePage.EntityList, ElementName=pageRoot}"
+							  SelectionMode="None"
+							  IsItemClickEnabled="True"
+							                                
+							  ContinuumNavigationTransitionInfo.ExitElementContainer="True">
+						<ListView.ItemTemplate>
+							<DataTemplate>
+								<StackPanel Orientation="Vertical" Margin="0,0,0,19">
+									<TextBlock Text="{Binding Title}" Style="{ThemeResource ListViewItemTextBlockStyle}" Foreground="Black"/>
+									<TextBlock Text="{Binding Content}" Style="{ThemeResource ListViewItemContentTextBlockStyle}" Foreground="#FF555555" TextTrimming="WordEllipsis" TextWrapping="NoWrap" Height="30"/>
+								</StackPanel>
+							</DataTemplate>
+						</ListView.ItemTemplate>
+					</ListView>
+				</DataTemplate>
+			</HubSection>
+		</Hub>
+    </Grid>
+</Page>
+

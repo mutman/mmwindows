@@ -1,0 +1,4 @@
+MainPackage=C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\bin\Release\MutiaraIman.Windows_1.2.0.0_Bundle\MutiaraIman.Windows_1.2.0.0_AnyCPU.appx
+SymbolPackage=C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\AppPackages\MutiaraIman.Windows_1.2.0.0_Test\MutiaraIman.Windows_1.2.0.0_AnyCPU.appxsym
+ResourcePack=C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\bin\Release\MutiaraIman.Windows_1.2.0.0_Bundle\MutiaraIman.Windows_1.2.0.0_scale-140.appx
+ResourcePack=C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\bin\Release\MutiaraIman.Windows_1.2.0.0_Bundle\MutiaraIman.Windows_1.2.0.0_scale-180.appx

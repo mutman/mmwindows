@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BATTLESTATION</Machine>
+    <WindowsUser>Ronny</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>49882RonnyGunawan.MutiaraIman</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>44B4C3B97B330FC6C5847B294AE34CF21228C8C391DF7D54398646E971E94FE7</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>49882RonnyGunawan.MutiaraIman_1.1.0.0_neutral__m27m722wn3ynm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>49882RonnyGunawan.MutiaraIman_m27m722wn3ynm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>49882RonnyGunawan.MutiaraIman</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=3C62EC19-14ED-4E89-BFEF-D06F0E619B97</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-18T14:25:35.934</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\bin\Debug\MutiaraIman.Windows.exe">
+      <PackagePath>MutiaraIman.Windows.exe</PackagePath>
+      <Modified>2014-11-18T17:20:37.208</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\packages\Newtonsoft.Json.6.0.5\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2014-10-07T14:53:55.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-16T13:18:42.521</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\Assets\prayer-inverted.png">
+      <PackagePath>Assets\prayer-inverted.png</PackagePath>
+      <Modified>2014-11-16T10:54:58.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\Assets\prayer.png">
+      <PackagePath>Assets\prayer.png</PackagePath>
+      <Modified>2014-11-16T10:23:44.860</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\Assets\quote-inverted.png">
+      <PackagePath>Assets\quote-inverted.png</PackagePath>
+      <Modified>2014-11-16T10:54:58.599</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\Assets\quote.png">
+      <PackagePath>Assets\quote.png</PackagePath>
+      <Modified>2014-11-16T10:23:44.860</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\Assets\reflections-inverted.png">
+      <PackagePath>Assets\reflections-inverted.png</PackagePath>
+      <Modified>2014-11-16T10:54:58.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\Assets\reflections.png">
+      <PackagePath>Assets\reflections.png</PackagePath>
+      <Modified>2014-11-16T10:23:44.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-25T13:27:25.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-16T13:24:21.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-16T13:19:46.575</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\Assets\Menu.scale-100.png">
+      <PackagePath>Assets\Menu.scale-100.png</PackagePath>
+      <Modified>2014-11-15T13:26:10.837</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\Assets\Menu.scale-140.png">
+      <PackagePath>Assets\Menu.scale-140.png</PackagePath>
+      <Modified>2014-11-15T13:28:48.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\Assets\Menu.scale-180.png">
+      <PackagePath>Assets\Menu.scale-180.png</PackagePath>
+      <Modified>2014-11-15T13:28:48.586</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\Assets\stories-inverted.png">
+      <PackagePath>Assets\stories-inverted.png</PackagePath>
+      <Modified>2014-11-16T10:54:58.603</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\Assets\stories.png">
+      <PackagePath>Assets\stories.png</PackagePath>
+      <Modified>2014-11-16T10:23:44.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\Assets\worship-inverted.png">
+      <PackagePath>Assets\worship-inverted.png</PackagePath>
+      <Modified>2014-11-16T10:54:58.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\Assets\worship.png">
+      <PackagePath>Assets\worship.png</PackagePath>
+      <Modified>2014-11-16T10:23:44.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Shared\Assets\menu-doa.png">
+      <PackagePath>Assets\menu-doa.png</PackagePath>
+      <Modified>2014-10-11T15:18:55.620</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Shared\Assets\menu-lagu.png">
+      <PackagePath>Assets\menu-lagu.png</PackagePath>
+      <Modified>2014-10-11T15:18:31.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Shared\Assets\menu-quote.png">
+      <PackagePath>Assets\menu-quote.png</PackagePath>
+      <Modified>2014-10-11T15:18:00.580</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Shared\Assets\menu-renungan.png">
+      <PackagePath>Assets\menu-renungan.png</PackagePath>
+      <Modified>2014-10-11T15:18:44.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Shared\Assets\menu-santo.png">
+      <PackagePath>Assets\menu-santo.png</PackagePath>
+      <Modified>2014-10-11T15:18:15.445</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Shared\Assets\mutiaraiman-45px.png">
+      <PackagePath>Assets\mutiaraiman-45px.png</PackagePath>
+      <Modified>2014-10-11T14:38:03.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Shared\Assets\mutiaraiman-inv-45px.png">
+      <PackagePath>Assets\mutiaraiman-inv-45px.png</PackagePath>
+      <Modified>2014-10-11T14:59:27.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Shared\Assets\mutiaraiman-inv.png">
+      <PackagePath>Assets\mutiaraiman-inv.png</PackagePath>
+      <Modified>2014-10-11T14:59:07.669</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Shared\Assets\mutiaraiman.png">
+      <PackagePath>Assets\mutiaraiman.png</PackagePath>
+      <Modified>2014-10-11T14:14:37.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-10-12T07:26:53.392</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\bin\Debug\Common\CommonStyles.xbf">
+      <PackagePath>Common\CommonStyles.xbf</PackagePath>
+      <Modified>2014-10-12T07:27:12.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\bin\Debug\Common\SpecificStyles.xbf">
+      <PackagePath>Common\SpecificStyles.xbf</PackagePath>
+      <Modified>2014-10-12T07:27:12.648</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\bin\Debug\MainPage2.xbf">
+      <PackagePath>MainPage2.xbf</PackagePath>
+      <Modified>2014-11-16T13:49:57.226</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\bin\Debug\ReadingPage.xbf">
+      <PackagePath>ReadingPage.xbf</PackagePath>
+      <Modified>2014-10-25T18:17:14.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-11-18T17:20:37.005</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\bin\Debug\MutiaraIman.Windows.xr.xml">
+      <PackagePath>MutiaraIman.Windows.xr.xml</PackagePath>
+      <Modified>2014-11-16T13:28:26.997</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ronny\documents\visual studio 2013\Projects\MutiaraIman\MutiaraIman\MutiaraIman.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-18T14:25:35.817</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="49882RonnyGunawan.MutiaraIman" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>100</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/MainPage.xbf">
+				<Candidate type="Path">
+					<Value>MainPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage2.xbf" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/MainPage2.xbf">
+				<Candidate type="Path">
+					<Value>MainPage2.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MutiaraIman.Windows.xr.xml" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/MutiaraIman.Windows.xr.xml">
+				<Candidate type="Path">
+					<Value>MutiaraIman.Windows.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ReadingPage.xbf" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/ReadingPage.xbf">
+				<Candidate type="Path">
+					<Value>ReadingPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="Logo.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="menu-doa.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/menu-doa.png">
+					<Candidate type="Path">
+						<Value>Assets\menu-doa.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="menu-lagu.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/menu-lagu.png">
+					<Candidate type="Path">
+						<Value>Assets\menu-lagu.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="menu-quote.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/menu-quote.png">
+					<Candidate type="Path">
+						<Value>Assets\menu-quote.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="menu-renungan.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/menu-renungan.png">
+					<Candidate type="Path">
+						<Value>Assets\menu-renungan.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="menu-santo.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/menu-santo.png">
+					<Candidate type="Path">
+						<Value>Assets\menu-santo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Menu.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/Menu.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Menu.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="mutiaraiman-45px.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/mutiaraiman-45px.png">
+					<Candidate type="Path">
+						<Value>Assets\mutiaraiman-45px.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="mutiaraiman-inv-45px.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/mutiaraiman-inv-45px.png">
+					<Candidate type="Path">
+						<Value>Assets\mutiaraiman-inv-45px.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="mutiaraiman-inv.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/mutiaraiman-inv.png">
+					<Candidate type="Path">
+						<Value>Assets\mutiaraiman-inv.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="mutiaraiman.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/mutiaraiman.png">
+					<Candidate type="Path">
+						<Value>Assets\mutiaraiman.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="prayer-inverted.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/prayer-inverted.png">
+					<Candidate type="Path">
+						<Value>Assets\prayer-inverted.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="prayer.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/prayer.png">
+					<Candidate type="Path">
+						<Value>Assets\prayer.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="quote-inverted.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/quote-inverted.png">
+					<Candidate type="Path">
+						<Value>Assets\quote-inverted.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="quote.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/quote.png">
+					<Candidate type="Path">
+						<Value>Assets\quote.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="reflections-inverted.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/reflections-inverted.png">
+					<Candidate type="Path">
+						<Value>Assets\reflections-inverted.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="reflections.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/reflections.png">
+					<Candidate type="Path">
+						<Value>Assets\reflections.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="stories-inverted.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/stories-inverted.png">
+					<Candidate type="Path">
+						<Value>Assets\stories-inverted.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="stories.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/stories.png">
+					<Candidate type="Path">
+						<Value>Assets\stories.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="worship-inverted.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/worship-inverted.png">
+					<Candidate type="Path">
+						<Value>Assets\worship-inverted.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="worship.png" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Assets/worship.png">
+					<Candidate type="Path">
+						<Value>Assets\worship.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Common">
+				<NamedResource name="CommonStyles.xbf" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Common/CommonStyles.xbf">
+					<Candidate type="Path">
+						<Value>Common\CommonStyles.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SpecificStyles.xbf" uri="ms-resource://49882RonnyGunawan.MutiaraIman/Files/Common/SpecificStyles.xbf">
+					<Candidate type="Path">
+						<Value>Common\SpecificStyles.xbf</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

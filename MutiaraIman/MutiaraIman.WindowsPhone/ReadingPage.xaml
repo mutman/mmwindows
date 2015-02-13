@@ -1,0 +1,38 @@
+﻿<Page
+	x:Name="pageRoot"
+    x:Class="MutiaraIman.ReadingPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MutiaraIman"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+	
+	<Page.Transitions>
+		<TransitionCollection>
+			<NavigationThemeTransition>
+				<NavigationThemeTransition.DefaultNavigationTransitionInfo>
+					<ContinuumNavigationTransitionInfo></ContinuumNavigationTransitionInfo>
+				</NavigationThemeTransition.DefaultNavigationTransitionInfo>
+			</NavigationThemeTransition>
+		</TransitionCollection>
+	</Page.Transitions>
+
+    <Grid Background="White">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<StackPanel Orientation="Horizontal" Margin="19,0,0,0">
+			<Image Source="Assets/mutiaraiman-45px.png" Height="22" Width="22" Margin="-1,6,7,-1"/>
+			<TextBlock Text="Mutiara Iman" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,5,0,0" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}" Foreground="#FF9F0094"/>
+		</StackPanel>
+		<ScrollViewer Grid.Row="1" VerticalScrollMode="Auto" VerticalScrollBarVisibility="Auto" Margin="0,5,0,0">
+			<StackPanel Orientation="Vertical">
+				<TextBlock Text="{Binding Entity.Title, ElementName=pageRoot}" Style="{ThemeResource HeaderTextBlockStyle}" Margin="19,-4.5,0,28.5" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}" Foreground="Black" TextWrapping="Wrap"/>
+				<TextBlock Grid.Row="1" Text="{Binding Entity.Content, ElementName=pageRoot}" Foreground="Black" FontSize="18" LineHeight="30" Margin="19,0,19,40" TextWrapping="Wrap"/>
+			</StackPanel>
+		</ScrollViewer>
+	</Grid>
+</Page>
